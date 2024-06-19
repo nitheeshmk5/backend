@@ -5,7 +5,7 @@ const app = express();
 const date = new Date();
 const day = date.getDay();
 
-let days = " ";
+let days = "";
 let advise = "";
 if (day < 5) {
   days = "Weekday";
