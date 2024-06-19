@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/header.ejs') %>
+  <body>
+    <div class="container">
+      <h1>Click to generate BandName ⬇️</h1>
+      <form action="/submit" method="post">
+        <input type="submit" value="Generate" class="btn" />
+      </form>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
