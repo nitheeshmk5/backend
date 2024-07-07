@@ -1,0 +1,16 @@
+* {
+  background: gray;
+  color: white;
+}
+
+img {
+  width: 50vw;
+  height: 50vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
